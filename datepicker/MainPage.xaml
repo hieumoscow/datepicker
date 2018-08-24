@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:datepicker" x:Class="datepicker.MainPage">
+    <StackLayout VerticalOptions="Center">
+       <local:MyDatePicker Format="dd/MM/yyyy" NullableDate="{Binding Dt}" Margin="20,0"  HorizontalOptions="Fill" />
+        <Button Text="Nullify" Command="{Binding NullCommand}"/>
+    </StackLayout>
+</ContentPage>
